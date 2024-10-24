@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<div class="register" >
+<h1>REGISTER HERE!</h1>
+<form class="regform">
+    <div class="name"><input type="text" placeholder="username" id="regname" required></div>
+    <div class="name"><input type="email" placeholder="your Email" id="regmail" required></div>
+    <div class="name"><input type="text" placeholder="password" id="regpas" required maxlength="4"></div>
+    <div class="regbtn"><a href="#">register</a></div>
+
+    <p id="or">        -------OR-----------  </p>
+
+    <div class="ult" id="logult"><a href="#">Log In</a></div>
+
+</form>
+
+
+
+
+</div>
+
+<div class="log" style="display: none;">
+    <h1>Log IN HERE!</h1>
+
+    <form class="regform logform">
+        <div class="name"><input type="text" placeholder="username" id="lognam"></div>
+        <div class="name"><input type="text" placeholder="password" id="logpass" maxlength="4"></div>
+        <div class="logbtn" ><a href="#">Log In</a></div>
+<p id="or">        -------OR-----------  </p>
+
+        <div class="ult" id="regult"><a href="#">register</a></div>
+    </form>
+</div>
+
+
+    </div>
+</body>
+<script src="apps.js"></script>
+</html>

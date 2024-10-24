@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+
+}
+body{
+    background-image: url('html-color-codes-color-tutorials-hero.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border-radius: 10px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .register{
+    transition: 5s;
+height: 450px;
+    margin: 50px;
+    background-color: cadetblue;
+
+
+}
+ h1{
+position: relative;
+color: dimgray;
+background-color: greenyellow;
+border-radius: 5px;
+margin-bottom: 20px;
+width: 300px;
+}
+.container  input{
+    width: 80%;
+    border-radius: 35px;
+
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.regbtn{
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+ height: 40px;
+    width: 78%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+ a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.log{
+    transition: 5s;
+    background-color: cadetblue;
+    margin: 50px;
+    height: 400px;
+}
+.logbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+ height: 40px;
+    width: 78%;
+    margin-left: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+.ult{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+ height: 40px;
+margin-left: 320px;
+border-radius: 10px;
+width: 100px;
+margin-top: 20px;
+}
+#or{
+    font-size: 30px;
+    color: rgb(102, 255, 0);
+    margin-left: 80px;
+    margin-top: 20px;
+}
